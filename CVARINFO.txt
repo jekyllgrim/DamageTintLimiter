@@ -1,1 +1,2 @@
 user nosave float cl_damageTintIntensity = 12;
+user nosave bool cl_damageTintLimit = true;

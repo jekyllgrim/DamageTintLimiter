@@ -1,4 +1,5 @@
 AddOptionMenu "OptionsMenu"
 {
-	ScaleSlider "Max damage tint intensity", "cl_damageTintIntensity", 0, 100, 1, "0"
+	Option "Enable damage limiter", "cl_damageTintLimit", "OnOff"
+	Slider "Max damage tint intensity", "cl_damageTintIntensity", 0, 100, 1, 0, "cl_damageTintLimit"
 }
