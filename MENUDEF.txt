@@ -1,0 +1,4 @@
+AddOptionMenu "OptionsMenu"
+{
+	ScaleSlider "Max damage tint intensity", "cl_damageTintIntensity", 0, 100, 1, "0"
+}

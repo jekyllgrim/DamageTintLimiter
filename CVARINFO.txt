@@ -1,0 +1,1 @@
+user nosave float cl_damageTintIntensity = 12;
